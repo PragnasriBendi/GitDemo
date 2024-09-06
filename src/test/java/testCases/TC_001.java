@@ -33,6 +33,8 @@ public class TC_001 {
 	public void testRecLogin() {
 		RecLoginPage rp = new RecLoginPage(driver);
 		rp.loginRecApp("vritisep.22.30@gmail.com", "Pragna@111");
+		System.out.println("I am king");
+		System.out.println("I can do it");
 		
 	}
 	
