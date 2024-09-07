@@ -51,6 +51,12 @@ public class TC_001 {
 		System.out.println("Appium");
 	}
 	
+	@Test(priority=5)
+	public void print2() {
+		System.out.println("Appium");
+	}
+	
+	
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();
