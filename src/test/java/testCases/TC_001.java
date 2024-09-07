@@ -26,6 +26,8 @@ public class TC_001 {
 	public void testCandLogin() throws InterruptedException {
 		CandLoginPage cp = new CandLoginPage(driver);
 		cp.loginCandApp("vritisep.22.1@gmail.com", "Pragna@111");
+		System.out.println("JIRA");
+		System.out.println("postman");
 		
 	}
 	
